@@ -1,25 +1,86 @@
-# Reflection
+# Project Reflection
 
-Student Name:  name
-Student Email:  email
+### What I Learned
 
-## Instructions
+1. **API Integration**
+   - Gained experience working with NASA's NeoWs API
+   - Learned how to handle API rate limits and error responses
+   - Implemented proper API key management using Streamlit secrets
 
-Reflection is a key activity of learning. It helps you build a strong metacognition, or "understanding of your own learning." A good learner not only "knows what they know", but they "know what they don't know", too. Learning to reflect takes practice, but if your goal is to become a self-directed learner where you can teach yourself things, reflection is imperative.
+2. **Data Visualization**
+   - Used Plotly Express to create interactive visualizations
+   - Learned to choose appropriate chart types for different data aspects
+   - Implemented responsive layouts that work well with varying data sizes
 
-- Now that you've completed the assignment, share your throughts. What did you learn? What confuses you? Where did you struggle? Where might you need more practice?
-- A good reflection is: **specific as possible**,  **uses the terminology of the problem domain** (what was learned in class / through readings), and **is actionable** (you can pursue next steps, or be aided in the pursuit). That last part is what will make you a self-directed learner.
-- Flex your recall muscles. You might have to review class notes / assigned readings to write your reflection and get the terminology correct.
-- Your reflection is for **you**. Yes I make you write them and I read them, but you are merely practicing to become a better self-directed learner. If you read your reflection 1 week later, does what you wrote advance your learning?
+3. **Testing**
+   - Implemented unit tests with mock objects for API calls
+   - Learned the importance of testing error cases
+   - Used unittest for structured test organization
 
-Examples:
+4. **Streamlit Development**
+   - Created a multi-tab interface for different features
+   - Implemented session state management
+   - Used Streamlit's layout options for responsive design
+   - Integrated interactive widgets for user input
 
-- **Poor Reflection:**  "I don't understand loops."   
-**Better Reflection:** "I don't undersand how the while loop exits."   
-**Best Reflection:** "I struggle writing the proper exit conditions on a while loop." It's actionable: You can practice this, google it, ask Chat GPT to explain it, etc. 
--  **Poor Reflection** "I learned loops."   
-**Better Reflection** "I learned how to write while loops and their difference from for loops."   
-**Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
+5. **Data Processing**
+   - Used Pandas for efficient data manipulation
+   - Implemented data filtering and aggregation
+   - Created summary statistics from raw data
 
-`--- Reflection Below This Line ---`
+### What I Struggled With
+
+1. **API Limitations**
+   - Working with NASA's 7-day limit for date ranges
+   - Handling rate limits and API timeouts
+   - Managing large data responses efficiently
+
+2. **Testing Challenges**
+   - Mocking complex API responses
+   - Testing asynchronous operations
+   - Ensuring comprehensive test coverage
+
+3. **User Interface Design**
+   - Balancing functionality with simplicity
+   - Making visualizations responsive
+   - Handling edge cases in user input
+
+### What I Would Do With More Time
+
+1. **Additional Features**
+   - Add more advanced filtering options
+   - Implement data caching for better performance
+   - Create comparison views for multiple asteroids
+   - Add export functionality for data and visualizations
+
+2. **Enhanced Visualizations**
+   - Create 3D visualizations of asteroid orbits
+   - Add time-series analysis of asteroid approaches
+   - Implement more interactive chart features
+
+3. **Performance Improvements**
+   - Implement background data loading
+   - Add progressive loading for large datasets
+   - Optimize data processing for faster response times
+
+4. **Additional Data Sources**
+   - Integrate other NASA APIs
+   - Add space weather data
+   - Include historical impact data
+
+5. **User Experience**
+   - Add user preferences and settings
+   - Implement dark/light theme options
+   - Add tutorial tooltips for new users
+   - Create a mobile-friendly layout
+
+## Reflections
+
+While working on this project, I ran into a few roadblocks—especially with testing. Mocking API responses, especially when they got complex, was trickier than I expected. At one point, I found myself getting lost in the weeds trying to figure out the best way to handle edge cases. But that's okay. These struggles were part of the process, and they taught me to embrace the messiness of debugging and testing. I realized that testing isn’t just about ensuring code works—it’s about anticipating what *could* go wrong and learning how to plan for it.
+
+The challenges with API limitations also tested my patience. Initially, I went through so many project iterations before settling on this version. My first plan was to create a space dashboard, but it came with its own share of struggles—data availability issues, maximizing API calls without hitting limits, and handling massive responses efficiently. I kept running into walls, and at times it felt like I was constantly starting over. Looking back, though, this iterative process really pushed me to think creatively and refine my approach.
+
+Having to constantly work around the 7-day limit and rate throttling forced me to think creatively about data handling. Sure, it was frustrating at times, but it pushed me to focus on efficiency and think about scalable solutions.
+
+Overall, I’m proud of the progress I made. Even though the project isn’t perfect, it’s a solid foundation with room for growth. I learned that it’s okay to struggle as long as you keep moving forward—and I did. With a bit more time, I’d refine the details and tackle those wish-list features, but for now, I’m happy with how much I’ve grown through this experience.
 
